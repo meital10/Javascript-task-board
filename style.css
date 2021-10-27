@@ -1,0 +1,87 @@
+/* * {
+  border: 1px solid;
+} */
+body {
+  background-image: url(tile.jpg);
+  background-repeat: repeat;
+  font-family: "Indie Flower", cursive;
+}
+
+h1 {
+  font-family: "Trade Winds", cursive;
+  text-align: center;
+}
+
+#divDatetime {
+  position: relative;
+}
+
+#dateTime {
+  background-color: lightgreen;
+  position: relative;
+  left: -20px;
+  bottom: 0px;
+  padding: 5px;
+}
+
+.divTextarea {
+  text-align: center;
+  border: none;
+  /* border-color: transparent; */
+}
+
+#textArea {
+  background-image: url(formbg.jpg);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  line-height: 35px;
+}
+
+.glyphicon-remove {
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 65px;
+  display: none;
+}
+
+.note:hover .c1 {
+  display: block;
+}
+
+.note {
+  background-image: url(notebg.png);
+  text-align: left;
+  height: 250px;
+  width: 200px;
+  background-repeat: no-repeat;
+  position: relative;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.textNote {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 25px;
+  text-align: left;
+  width: 160px;
+  height: 180px;
+  border: hidden;
+}
+
+.dateNote {
+  position: absolute;
+  bottom: 20px;
+  font-size: small;
+  color: darkslategray;
+  border: none;
+}
+#addnote {
+  float: right;
+  position: relative;
+  bottom: 50px;
+}

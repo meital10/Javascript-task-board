@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>task-board</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1> My Task Board</h1>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2 form">
+                <div class="form-group textarea ">
+                    <textarea class="form-control" id="textArea" rows="5" placeholder="please type here..."></textarea>
+                </div>
+
+                <div class="form-group col-4" id="divDatetime">
+                    <span><b>Date:</b></span><input type="datetime-local" id="dateTime">
+                </div>
+                <button class="btn btn-primary" id="addnote">Add Note</button>
+            </div>
+        </div>
+
+
+        <div class="row" id="notes">
+            <!-- <div class="col-md-3">
+
+                <div class="note">
+                    <span class="glyphicon glyphicon-remove c1"></span>
+                    <div id="textNote"></div>
+                    <div id="dateNote"></div>
+
+                </div>
+            </div> -->
+
+
+
+        </div>
+
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+
+</html>
